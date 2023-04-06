@@ -1,4 +1,6 @@
-﻿namespace _1.DataAndValueType
+﻿using System.Reflection.Metadata;
+
+namespace _1.DataAndValueType
 {
     internal class Program
     {
@@ -74,11 +76,24 @@
             bool flag = false; // bool 자료형으로 만든 flag 라는 이름의 변수에 false 값을 넣어줘!
 
             string myName = "Dsminsz"; // myName 변수에 "Dsminsz" 를 넣어줘
-
+            int age = 150; // age 변수에 150 을 넣어줘
             Console.WriteLine(myName);
             Console.WriteLine(myName+"는 내이름이야.");// + 를 통해서 문자열 통합
             Console.WriteLine("{0} 는 내이름이야.",myName);// {} 를통해서 문자열 포맷설정
+            Console.WriteLine("내 나이는 :{0} 이야", age);// {} 를통해서 문자열 포맷설정
 
+
+
+            ///상수 (Constant)
+            //프로그램이 실행되는 동안 변경할 수 없는 데이터
+            //데이터에 불러오기만 가능
+
+            // <상수 선언 및 초기화>
+            // 변수 선언 앞에 const 키워드를 추가하여 상수 선언
+            const int AGE = 100;        // MAX 상수 변수를 선언하고 초기화
+            Console.WriteLine("현재 나이의 최대값은 : {0}", AGE);
+            // const int MAX;			// 에러 : 상수는 초기화 없이 사용불가
+            // MAX = 300;				// 에러: 상수의 데이터는 변경 불가
 
         }
     }
