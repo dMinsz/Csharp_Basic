@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "0.FirstMeet", "0.FirstMeet\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1.DataAndValueType", "1.DataAndValueType\1.DataAndValueType.csproj", "{7CE00F67-03EB-4B9E-8B2A-4116BE91504C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Operator", "3.Operator\3.Operator.csproj", "{9EFA4D7C-63CF-4BC7-A593-4FDC45B29F39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{7CE00F67-03EB-4B9E-8B2A-4116BE91504C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CE00F67-03EB-4B9E-8B2A-4116BE91504C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CE00F67-03EB-4B9E-8B2A-4116BE91504C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EFA4D7C-63CF-4BC7-A593-4FDC45B29F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EFA4D7C-63CF-4BC7-A593-4FDC45B29F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EFA4D7C-63CF-4BC7-A593-4FDC45B29F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EFA4D7C-63CF-4BC7-A593-4FDC45B29F39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
