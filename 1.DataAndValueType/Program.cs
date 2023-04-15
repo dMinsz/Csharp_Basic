@@ -50,6 +50,8 @@ namespace _1.DataAndValueType
 
             /**************************************************************************************/
 
+
+            
             ///변수란
             // 수학에서 쓰는 변수와 비슷하게 쓰이는 것이며 변화하는 수 라고 생각해도된다.
 
@@ -82,7 +84,9 @@ namespace _1.DataAndValueType
             Console.WriteLine("{0} 는 내이름이야.",myName);// {} 를통해서 문자열 포맷설정
             Console.WriteLine("내 나이는 :{0} 이야", age);// {} 를통해서 문자열 포맷설정
 
+            Console.WriteLine("{0} 는 내이름이야. 나이는 {1} 이다", myName, age);// {} 를통해서 문자열 포맷설정
 
+            Console.WriteLine(myName + "는 내이름이야.");// + 를 통해 문자열 합치기
 
             ///상수 (Constant)
             //프로그램이 실행되는 동안 변경할 수 없는 데이터
@@ -131,6 +135,10 @@ namespace _1.DataAndValueType
                     Console.WriteLine(iMatrix[i,j]); // 모든 요소에 접근
                 }
             }
+
+            int a;
+            int[] arr= new int[5];
+            Console.WriteLine(arr[0]);
 
         }
     }
