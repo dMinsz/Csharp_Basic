@@ -68,7 +68,7 @@ namespace _3.Operator
             // 주의 빠른 계산을 위해 false && x(논리자료형) 의 경우 어떠한 논리자료형이 있어도
             // 결과는 항상 false이기 때문에 false && x 에서 x는 무시하게 됨
             
-            int num = 10;
+            num = 10;
 
             flag = false && (++num > 5);
             Console.WriteLine(num);  // output : 10
